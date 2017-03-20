@@ -1,11 +1,11 @@
-# Getting and Cleaing Data Project
+# Getting and Cleaning Data Project
 
 # README
 
-Note markdown text follows rstudio guidlines -
+Note markdown text follows rstudio guidelines -
   http://rmarkdown.rstudio.com/authoring_basics.html
 
-Lots of helpful guideance from:
+Lots of helpful guidance from:
 https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
 
 This README describes the `run_analysis.R` script and should be read along with the code book - CodeBook.md.
@@ -48,7 +48,7 @@ Firstly, the script reads in data that is the same across both the test and trai
 
 Then, read in data that is the different per test and train sets.
 
-* From the test and train diretories, read in:
+* From the test and train directories, read in:
     + train/X_train.txt
     + train/subject_train.txt
     + train/y_train.txt
@@ -117,7 +117,7 @@ identical(ncol(test_train_set), length(col_indexes))
 
 > Uses descriptive activity names to name the activities in the data set
 
-The script adds the subject and activty data to the combined test & train data set.  The following code can be used to ensure that they have been added and the data is in the correct order.
+The script adds the subject and activity data to the combined test & train data set.  The following code can be used to ensure that they have been added and the data is in the correct order.
 
 ```{r}
 identical(test_train_set$subjects,   test_train_subjects$V1)

@@ -1,4 +1,4 @@
-# Getting and Cleaing Data Project
+# Getting and Cleaning Data Project
 
 # Code Book
 
